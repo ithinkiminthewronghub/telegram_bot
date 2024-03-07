@@ -102,7 +102,7 @@ def get_checkout(message):
     }
 
     headers = {
-        "X-RapidAPI-Key": "cda2150777msh71d754e1400caf7p1dc2d7jsn9165cb26363b",
+        "X-RapidAPI-Key": os.getenv("RAPIDAPI_KEY"),
         "X-RapidAPI-Host": "airbnb13.p.rapidapi.com"
     }
 
